@@ -5,6 +5,12 @@
 
 
 // Arrays
-const arr = ["hello", "world", "namaste"];
+// const arr = ["hello", "world", "namaste"];
 
-console.log(typeof arr);
+// console.log(typeof arr);
+
+// console.log(1 + '2');
+
+const numObj = new Number(1234.2233);
+console.log(numObj.toFixed(2));
+console.log(numObj.toPrecision(2));
